@@ -1,0 +1,18 @@
+.News__1 {
+  margin-top: 8rem;
+}
+
+.News__1 h5:hover {
+  color: #fc5404;
+}
+
+.Admin__1 {
+  color: #fc5404;
+  text-decoration: none;
+}
+
+.P__2 {
+  color: #ccc;
+  font-size: 0.9rem;
+}
+/*# sourceMappingURL=NewsCard.css.map */

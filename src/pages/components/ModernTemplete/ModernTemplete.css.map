@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,kBAAkB,CAAA;EACd,UAAU,EAAE,KAAK;CACpB;;AACD,AAAA,YAAY,CAAA;EACR,KAAK,EAAE,OAAiB;CAC3B",
+    "sources": [
+        "ModernTemplete.scss"
+    ],
+    "names": [],
+    "file": "ModernTemplete.css"
+}

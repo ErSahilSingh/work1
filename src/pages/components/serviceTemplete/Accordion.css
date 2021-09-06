@@ -1,0 +1,23 @@
+.accordion-item {
+  border: none !important;
+  background-color: white;
+}
+
+.accordion-item button:hover {
+  color: #fc5404;
+}
+
+.accordion-button {
+  background-color: white;
+  border-bottom: 1px solid black;
+  text-transform: uppercase;
+  font-size: 12px;
+  padding-left: 0;
+  padding-right: 0;
+  font-weight: bold;
+}
+
+.accoricon__1 {
+  color: #fc5404;
+}
+/*# sourceMappingURL=Accordion.css.map */

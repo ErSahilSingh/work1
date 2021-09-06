@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,kBAAkB,CAAA;EACd,UAAU,EAAE,IAAI;CAKnB;;AAND,AAEI,kBAFc,CAEd,CAAC,CAAA;EACG,KAAK,EAAE,OAAiB;CAC3B",
+    "sources": [
+        "DesignTemplete.scss"
+    ],
+    "names": [],
+    "file": "DesignTemplete.css"
+}

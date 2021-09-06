@@ -1,0 +1,46 @@
+.page-footer {
+  background-color: #f8f9fa;
+}
+
+.btn__1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-decoration: none;
+  list-style-type: none;
+  -ms-flex-line-pack: left;
+      align-content: left;
+}
+
+.btn__1 li {
+  margin-right: 5px;
+}
+
+.btn__1 .btn {
+  border-radius: 50%;
+}
+
+.btn__1 .btn:hover {
+  background-color: #fc5404;
+  border-radius: 50%;
+}
+
+.btn__2 {
+  border: none;
+  border-radius: 40%;
+  background-color: rgba(238, 238, 238, 0.26);
+}
+
+.footer__2 {
+  font-size: 0.875em;
+  color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.footerpara__1 p {
+  cursor: pointer;
+}
+
+.footerpara__1 p:hover {
+  color: #fc5404;
+}
+/*# sourceMappingURL=Footer.css.map */

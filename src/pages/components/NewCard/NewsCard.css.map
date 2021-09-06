@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAGA,AAAA,QAAQ,CAAA;EACJ,UAAU,EAAE,IAAI;CAInB;;AALD,AAEI,QAFI,CAEJ,EAAE,AAAA,MAAM,CAAA;EACJ,KAAK,EANE,OAAO;CAOjB;;AAEL,AAAA,SAAS,CAAA;EACL,KAAK,EAVM,OAAO;EAWlB,eAAe,EAAE,IAAI;CACxB;;AACD,AAAA,KAAK,CAAA;EACD,KAAK,EAAE,IAAI;EACX,SAAS,EAAE,MAAM;CACpB",
+    "sources": [
+        "NewsCard.scss"
+    ],
+    "names": [],
+    "file": "NewsCard.css"
+}
