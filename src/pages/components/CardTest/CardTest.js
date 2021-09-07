@@ -12,23 +12,6 @@ const CardTest =()=> {
             <h1 className="fw-bold">TESTIMONIAL</h1>
             <hr className="testhr__1"/>
 
-            
-
-            <div class="gallery js-flickity"
-            data-flickity-options='{ "wrapAround": true }'>
-            <div class="gallery-cell"></div>
-            <div class="gallery-cell"></div>
-            <div class="gallery-cell"></div>
-            <div class="gallery-cell"></div>
-            <div class="gallery-cell"></div>
-            </div>
-
-
-
-
-
-
-
 
 
         </div>
