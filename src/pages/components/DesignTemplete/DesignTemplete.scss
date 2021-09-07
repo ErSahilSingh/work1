@@ -3,8 +3,25 @@
 .DesignTemplete__1{
     margin-top: 6rem;
     a{
-        color: rgb(253, 136, 57);
+        color: #fd7e14;
+        font-weight: 500;
+        cursor: pointer;
+        
     }
+    .icondesign__5{
+        font-size: .7rem;
+        margin-left: 8px;
+        color: #fc5404;
+    }
+    .icondesign__5:hover{
+        color: white!important;
+        font-size: .7rem;
+        background-color: #fd7e14;
+        padding: 2px 2px 2px 2px;
+        cursor: pointer;
+        transition: .3s all ease;
+    }
+
     .designhead__4{
         font-family: "Montserrat", sans-serif;
         font-size: 3vw;
@@ -21,26 +38,15 @@
     line-height: 1.6;
 }
 
-.designhead__6{
-    font-weight: 500;
-}
-.icondesign__5{
-    font-size: .7rem;
-    margin-left: 8px;
-    color: #fd7e14;
-    
-    
- 
-}
-.icondesign__5:hover{
+.designhead__6:hover+.icondesign__5{
     color: white!important;
     font-size: .7rem;
-    
     background-color: #fd7e14;
     padding: 2px 2px 2px 2px;
     cursor: pointer;
-    
+    transition: .3s all ease;
 }
+
 @media only screen and (min-width: 275px) {
     .designhead__4{
        

@@ -16,6 +16,7 @@
 }
 .mordicon__1:hover{
     color: #fc5404;
+    cursor: pointer;
 }
 .mordicon__2{
     font-size: .7rem;
@@ -29,4 +30,12 @@
     padding: 2px 2px 2px 2px;
     cursor: pointer;
     transition: .3s all ease;
+}
+.mordicon__1:hover+.mordicon__2{
+    color: white!important;
+    font-size: .7rem;
+    background-color: #fd7e14;
+    padding: 2px 2px 2px 2px;
+    cursor: pointer;
+    
 }

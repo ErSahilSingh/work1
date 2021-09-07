@@ -54,10 +54,11 @@
     font-family: "Montserrat", sans-serif;
 }
 .droph__1 {
-    padding: 2rem 2rem 2rem 0.5rem;
+    padding: 1.5rem 3rem 1.5rem 0.5rem;
     margin-left: 9rem;
     margin-top: -2rem;
-    margin-right: -2rem;
+    
+    line-height: 5rem;
 
 
     .dropdown-item{
@@ -74,7 +75,7 @@
     
 }
 .droph__2{
-    padding: 1rem 1rem 1rem 0.5rem ;
+    padding: 1rem 1rem 1rem 0rem ;
 
     .dropdown-item{
        
@@ -91,6 +92,7 @@
     .dropword__1{
         padding-right: 2rem;
         color: #000!important;
+        
     }
     .dropword__1:hover{
         background-color: white;
@@ -98,6 +100,48 @@
     }
     
 }
+.dropdown-toggle::after {
+    display: none;
+}
+
+.subdrop__1{
+    line-height: 0.3rem;
+    margin-right: -2rem;
+    .dropdown-toggle::after {
+        display: none;
+    }
+    
+    
+}
+
+.anglebtn__1{
+   margin-left: 6px;
+    content: "\e313";
+    font-size: 12px;
+    top: 50%;
+    right: 0;
+    
+   
+    font-family: 'icomoon';
+}
+.anglebtn__2{
+    
+    content: "\e313";
+    font-size: 12px;
+    top: 50%;
+    right: 0;
+    color: gray;
+    margin-left: 1rem;
+ 
+    font-family: 'icomoon';
+}
+.anglebtn__2:hover{
+    color:#fd7e14;
+}
+.dropword__1:hover+.dropword__1{
+    color:#fd7e14;
+}
+
 
 @media only screen and (min-width: 992px) {
     .canvbtn__1{

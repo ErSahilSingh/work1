@@ -12,7 +12,7 @@ function DesignTemplete() {
                     <h5 className="designhead__4">WE CREATE ARCHITECTURAL DESIGNS</h5>
                     <hr/>
                     <p className="designhead__5 mt-5">Delectus voluptatum distinctio quos eius excepturi sunt pariatur, aut, doloribus officia ea molestias beatae laudantium, quam odio ipsum veritatis est maiores velit quasi blanditiis et natus accusamus itaque. Veniam quidem debitis odio amet voluptas distinctio dicta placeat! Et pariatur doloremque ea veniam.</p>
-                    <p><a className="fw-small text-decoration-none designhead__6 ">Learn more </a><FaArrowRight className="icondesign__5"/></p>
+                    <p><a className="fw-small text-decoration-none designhead__6 ">Learn more </a><FaArrowRight className="icondesign__5 "/></p>
                 </div>
                 <div className="col-md-2"></div>
                 <div className="col-md-6 ">

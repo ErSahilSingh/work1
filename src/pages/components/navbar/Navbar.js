@@ -2,6 +2,8 @@ import React from 'react';
 import './Navbar.scss';
 import {Link} from 'gatsby';
 import { FaPhoneAlt } from "@react-icons/all-files/fa/FaPhoneAlt";
+import { FaAngleDown } from "@react-icons/all-files/fa/FaAngleDown";
+import { FaAngleRight } from "@react-icons/all-files/fa/FaAngleRight";
 
 
 import Logo from './Logo';
@@ -25,19 +27,21 @@ const Navbar=() =>{
                     <li className="nav-item dropdown">
                     <Link className="nav-link dropdown-toggle Navspace__1 " to="/Project" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Projects
+                       <FaAngleDown className="anglebtn__1"/>
                     </Link>
                     <ul className="dropdown-menu droph__2" aria-labelledby="navbarDropdown">
-                        <li><a className="dropdown-item" href="#">Commercial Building</a></li>
-                        <li><a className="dropdown-item" href="#">Cultural Lifestyle</a></li>
+                        <li><a className="dropdown-item py-2 ms-2" href="#">Commercial Building</a></li>
+                        <li><a className="dropdown-item ms-2" href="#">Cultural Lifestyle</a></li>
                         
                         <li><a className="dropdown-item" href="#">
-                        <li className="nav-item dropdown dropend">
-                    <Link className="nav-link dropdown-toggle  dropword__1  px-left"  id="navbarDropdown" data-bs-toggle="dropdown" aria-expanded="false">
-                        Dropdown
-                    </Link>
+                        <li className="nav-item dropdown subdrop__1">
+                    <li className="nav-link dropdown-toggle  "  id="navbarDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                      <span className=" dropword__1" >  Dropdown 
+                        </span>< FaAngleRight className="anglebtn__2"/>
+                    </li>
                     <ul className="dropdown-menu droph__1" aria-labelledby="navbarDropdown">
-                        <li><a className="dropdown-item" href="#"> Sub Menu one</a></li>
-                        <li><a className="dropdown-item" href="#"> Sub Menu two</a></li>
+                        <li><a className="dropdown-item pb-2" href="#"> Sub Menu one</a></li>
+                        <li><a className="dropdown-item pb-2" href="#"> Sub Menu two</a></li>
                         
                         <li><a className="dropdown-item" href="#"> Sub Menu three</a></li>
                     </ul>

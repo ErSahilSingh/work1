@@ -7,26 +7,26 @@ const Accordion=() =>{
 
         
         <>
-            <div className="accordion " id="accordionPanelsStayOpenExample">
+            <div className="accordion " id="accordionExample">
             <div className="accordion-item">
-                <h2 className="accordion-header" id="panelsStayOpen-headingOne">
-                <button className="accordion-button bg-light " type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                <h2 className="accordion-header" id="headingOne">
+                <button className="accordion-button bg-light " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                 INTERIOR DESIGN
                 </button>
                 </h2>
-                <div id="panelsStayOpen-collapseOne" className="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                 <div className="accordion-body bg-light">
                    <AccordionCard/>
                 </div>
                 </div>
             </div>
             <div className="accordion-item">
-                <h2 className="accordion-header" id="panelsStayOpen-headingTwo">
-                <button className="accordion-button collapsed bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                <h2 className="accordion-header" id="headingTwo">
+                <button className="accordion-button collapsed bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                 LANDSCAPE DESIGN
                 </button>
                 </h2>
-                <div id="panelsStayOpen-collapseTwo" className="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                 <div className="accordion-body bg-light">
                     <AccordionCard/>
                 </div>
@@ -34,12 +34,12 @@ const Accordion=() =>{
             </div>
 
             <div className="accordion-item">
-                <h2 className="accordion-header" id="panelsStayOpen-headingFive">
-                <button className="accordion-button collapsed bg-light " type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false" aria-controls="panelsStayOpen-collapseFive">
+                <h2 className="accordion-header" id="headingFive">
+                <button className="accordion-button collapsed bg-light " type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
                 ENGINEERING PLAN
                 </button>
                 </h2>
-                <div id="panelsStayOpen-collapseFive" className="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFive">
+                <div id="collapseFive" className="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
                 <div className="accordion-body bg-light">
                     <AccordionCard/>
                 </div>
@@ -48,12 +48,12 @@ const Accordion=() =>{
 
 
             <div className="accordion-item">
-                <h2 className="accordion-header" id="panelsStayOpen-headingThree">
-                <button className="accordion-button collapsed bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                <h2 className="accordion-header" id="headingThree">
+                <button className="accordion-button collapsed bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
                 ARCHITECTURE DESIGN
                 </button>
                 </h2>
-                <div id="panelsStayOpen-collapseThree" className="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                <div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                 <div className="accordion-body bg-light">
                 <AccordionCard/>
                 </div>

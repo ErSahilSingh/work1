@@ -53,4 +53,13 @@
   }
  .accoricon__1:hover{
   color: #fc5404 ;
+  cursor: pointer;
+ }
+ .accoricon__1:hover+.accricon__2{
+    color: white!important;
+    font-size: .7rem;
+    background-color: #fd7e14;
+    padding: 2px 2px 2px 2px;
+    cursor: pointer;
+    transition: .3s all ease;
  }
