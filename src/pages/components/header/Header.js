@@ -13,7 +13,7 @@ const Header=() =>{
                     <div className="row d-flex justify-content-center">
                         
                         <div className="col-md-4  ">
-                        <h1 className="header__2 text-white  ">WE LOVE ARCHITECTURE & INTERIOR DESIGN</h1>
+                        <h3 className="header__2 text-white  ">WE LOVE ARCHITECTURE & INTERIOR DESIGN</h3>
                         <div className="btn btn-outline-light mt-3 play-vid"><FaPlay className="mt-4" />
                        
                         </div>
@@ -22,10 +22,10 @@ const Header=() =>{
 
                     </div>
                     <div className="row d-flex justify-content-end">
-                        <div className="col-md-6 ">
+                        <div className="col-md-5 ">
                             <hr />
-                            <p className="text-white">
-                            Delectus voluptatum distinctio quos eius excepturi sunt pariatur, aut, doloribus officia ea molestias beatae laudantium, quam odio ipsum veritatis est maiores velit quasi blanditiis et natus accusamus itaque.
+                            <p className="text-white headerp__5">
+                            Delectus voluptatum distinctio   pariatur, aut, doloribus officia ea molestias beatae laudantium, quam odio ipsum veritatis est maiores velit quasi blanditiis et natus accusamus itaque.
                             </p>
 
                         </div>

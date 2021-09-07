@@ -5,11 +5,17 @@ $paragra-color:#fc5404;
     margin-top: 8rem;
     h5:hover{
         color: $paragra-color;
+        cursor: pointer;
+        transform: .3s all ease;
     }
 }
 .Admin__1{
     color: $paragra-color;
+    cursor: pointer;
     text-decoration: none;
+}
+.Admin__1:hover{
+    color: $paragra-color;
 }
 .P__2{
     color: #ccc;

@@ -3,6 +3,12 @@ $colororangef :#fc5404;
 .page-footer{
     background-color:  #f8f9fa;
   }
+  .footerh__6{
+    font-size: 17px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: #000;
+  }
   
   .btn__1{
     display: flex;
@@ -13,17 +19,23 @@ $colororangef :#fc5404;
     
   }
   .btn__1 {
-    
-    li{
-    margin-right: 5px;
-
-    }
+    padding: 0;
     .btn{
+      width: 50px;
+      height: 50px;
+      margin-left: 2px;
       border-radius: 50%;
+      background: #f8f9fa;
+      display: inline-block;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: black;
     }
     .btn:hover{
       background-color: $colororangef;
-      
+      color: white!important;
+      padding: auto;
       border-radius: 50%;
 
     }
@@ -46,3 +58,36 @@ $colororangef :#fc5404;
       color: $colororangef ;
     }
   }
+  .footerabout__1{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #7a7a7a;
+    line-height: 1.6;
+  }
+
+
+  @media only screen and (max-width: 275px) {
+    .btn__1 {
+    padding: 0;
+    .btn{
+      width: 45px;
+      height: 45px;
+      border-radius: 50%;
+      background: #f8f9fa;
+      display: inline-block;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: black;
+    }
+    .btn:hover{
+      background-color: $colororangef;
+      color: white!important;
+      padding: auto;
+      border-radius: 50%;
+
+    }
+    
+  }
+}

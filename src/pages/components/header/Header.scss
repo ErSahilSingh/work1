@@ -18,10 +18,11 @@
 .header__3{
     hr{
         width: 50px;
-        background-color: white;
+        
         height: 3px;
         display: flex;
         direction:  column;
+        color: white!important;
     }
     .btn{
         display: inline-block;
@@ -29,15 +30,33 @@
         height: 5rem;
         border-radius: 50%;
         border: 1px solid rgba(255, 255, 255, 0.2);
+        background-color: transparent;
         
     }
+    .btn:hover{
+        color: white;
+        border-radius: 2px solid white;
+    }
+
+    h1{
+        font-size: 50px;
+        font-family: "Montserrat", sans-serif;
+    }
+    
+}
+.headerp__5{
+  
+    color: rgba(255, 255, 255, 0.8)!important;
+    
 }
 
 
 
 @media only screen and (min-width: 275px) {
     .header__2{
-        margin-top: 1.5rem;
+        margin-top: 2rem;
+        font-size: 4vw;
+        text-transform: uppercase;
+        font-weight: bold;
     }
 }
-

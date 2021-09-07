@@ -1,6 +1,32 @@
 .ModernTemplete__1{
     margin-top: 10rem;
+    .designmorden__4{
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        color: #7a7a7a;
+        line-height: 1.6;
+    }
 }
+
 .mordicon__1{
-    color: rgb(253, 136, 57);
+    color: #fc5404;
+    font-weight: 500;
+    
+}
+.mordicon__1:hover{
+    color: #fc5404;
+}
+.mordicon__2{
+    font-size: .7rem;
+    margin-left: 8px;
+    color: #fc5404;
+}
+.mordicon__2:hover{
+    color: white!important;
+    font-size: .7rem;
+    background-color: #fd7e14;
+    padding: 2px 2px 2px 2px;
+    cursor: pointer;
+    transition: .3s all ease;
 }

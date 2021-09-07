@@ -9,7 +9,7 @@ const CardTestsecond=(props)=> {
                     <div className="card-body text-center">
                         <h5 className="card-title fw-bold text-white">{props.clientname}</h5>
                         <p className="fw-light text-light">{props.clientposition}</p>
-                        <blockquote className="card-text text-light my-5">
+                        <blockquote className="card-text text-light my-5 ">
 								Delectus voluptatum distinctio quos eius excepturi sunt pariatur, aut, doloribus officia ea molestias beatae laudantium, quam odio ipsum veritatis est maiores velit quasi blanditiis et natus accusamus itaque. Veniam quidem debitis odio amet voluptas distinctio dicta placeat! Et pariatur doloremque ea veniam.
 						</blockquote>
                         

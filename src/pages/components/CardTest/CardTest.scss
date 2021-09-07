@@ -1,5 +1,5 @@
 .testhr__1{
-    width: 50rem;
+    width: 60%;
 }
 
 
@@ -13,13 +13,9 @@
 .cardbody__1{
     background-color: black;
     border-radius: 10px;
-    blockquote{
-        font-size: 1.2rem;
-        color: #777!important;
-        font-family: "Roboto", sans-serif;
-    }
-    
+   
 }
+
 .sec__1{
     padding-top: 5rem;
     padding-bottom: 6rem;
@@ -44,3 +40,40 @@
         
     }
 }
+.news__4{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #7a7a7a;
+    line-height: 1.6;
+}
+
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  body { font-family: sans-serif; }
+  
+  .gallery {
+    background: #EEE;
+  }
+  
+  .gallery-cell {
+    width: 66%;
+    height: 200px;
+    margin-right: 10px;
+    background: #8C8;
+    counter-increment: gallery-cell;
+  }
+  
+  /* cell number */
+  .gallery-cell:before {
+    display: block;
+    text-align: center;
+    content: counter(gallery-cell);
+    line-height: 200px;
+    font-size: 80px;
+    color: white;
+  }

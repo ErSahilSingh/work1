@@ -11,8 +11,8 @@ const AccordionCard=()=>{
                     <img className="img__1" src={img1} height="85%" width="100%"/>
                 </div>
                 <div className="col-md-8 ">
-                <p>BDelectus voluptatum distinctio quos  doloribus officia ea molestias beatae laudantium, quam odio ipsum veritatis est maiores velit quasi blanditiis et natus accusamus itaque. Veniam quidem debitis odio amet voluptas distinctio.</p>
-                    <p><a className="fw-small text-decoration-none accoricon__1 ">Learn more <FaArrowRight/></a></p>
+                <p className="accorpara__4">BDelectus voluptatum distinctio quos  doloribus officia ea molestias beatae laudantium, quam odio ipsum veritatis est maiores velit quasi blanditiis et natus accusamus itaque. Veniam quidem debitis odio amet voluptas distinctio.</p>
+                    <p><a className="fw-small text-decoration-none accoricon__1 ">Learn more </a><FaArrowRight className="accricon__2"/></p>
                 </div>
             </div>
 

@@ -14,7 +14,7 @@ const ProjectCard=()=> {
                 </div>
                 <div className="col-md-3"></div>
                 <div className="col-md-5">
-                    <p >Delectus voluptatum r, aut, doloribus officia ea molestias beatae laudantium, quam odio ipsum veritatis est maiores velit quasi blanditiis et natus accusamus itaque.</p>
+                    <p className="projectpara__1">Delectus voluptatum r, aut, doloribus officia ea molestias beatae laudantium, quam odio ipsum veritatis est maiores velit quasi blanditiis et natus accusamus itaque.</p>
 
                 </div>
             </div>

@@ -4,6 +4,8 @@ import AccordionCard from './AccordionCard';
 
 const Accordion=() =>{
     return (
+
+        
         <>
             <div className="accordion " id="accordionPanelsStayOpenExample">
             <div className="accordion-item">
