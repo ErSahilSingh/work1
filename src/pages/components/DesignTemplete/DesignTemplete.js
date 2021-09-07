@@ -18,7 +18,7 @@ function DesignTemplete() {
                 <div className="col-md-6 ">
                     <img  src="https://untree.co/demos/archiark/images/img_8.jpg" width="100%" height="auto" alt="design"/>
                     
-                </div>
+                    </div>
 
             </div>
         </div>
