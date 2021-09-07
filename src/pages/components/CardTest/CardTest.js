@@ -7,12 +7,10 @@ import CardTestsecond from './CardTestsecond';
 const CardTest =()=> {
    
     return (
-        <div className="bg-light sec__1 ">
-        <div className="container-fluid  text-center testhead__1"> 
+        <div className=" sec__1 bg-light ">
+            <div className="container-fluid  text-center testhead__1"> 
             <h1 className="fw-bold">TESTIMONIAL</h1>
             <hr className="testhr__1"/>
-
-
 
         </div>
 
@@ -20,8 +18,8 @@ const CardTest =()=> {
             <div className="row"> 
             <div className="col-md-12">
                <div className="d-flex justify-content-center py-3">
-                        <div className="btn btn-outline-secondary "type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"> <FaAngleLeft className="fs-5"/></div>
-                    <div className="btn btn-outline-secondary" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"  aria-current="true" aria-label="Slide 1" ><FaAngleRight className="fs-5"/> </div>
+                        <div className="btn btn-outline-secondary btnTest__6 " type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"  aria-current="true" aria-label="Slide 1"> <FaAngleLeft  /></div>
+                <div className="btn btn-outline-secondary btnTest__6 " type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"  aria-label="Slide 3"> <FaAngleRight /> </div>
             </div>
             <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
             <ol className="carousel-indicators">
@@ -31,7 +29,7 @@ const CardTest =()=> {
             </ol>
             <div className="carousel-inner ">
 
-            <div className="carousel-item active ">
+            <div className="carousel-item  ">
             <div className="row justify-content-center">
                 
                 <div className="col-lg-7 col-md-7 col-sm-12 d-flex  justify-content-center">
@@ -43,7 +41,7 @@ const CardTest =()=> {
 
 
 
-            <div className="carousel-item ">
+            <div className="carousel-item active">
             <div className="row justify-content-center">
                 
                 <div className="col-lg-7 col-md-7 col-sm-12 d-flex  justify-content-center">
@@ -66,12 +64,11 @@ const CardTest =()=> {
             </div>
         </div>
             </div>
-            </div>
-            </div>
+                </div>
+                    </div>
+                        </div>
+                            </div>
 
-        </div>
-        
-        </div>
         
     )
 }

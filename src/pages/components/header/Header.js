@@ -12,7 +12,7 @@ const Header=() =>{
                     
                     <div className="row d-flex justify-content-center">
                         
-                        <div className="col-md-4  ">
+                        <div className="col-md-5  ">
                         <h3 className="header__2 text-white  ">WE LOVE ARCHITECTURE & INTERIOR DESIGN</h3>
                         <div className="btn btn-outline-light mt-3 play-vid"><FaPlay className="mt-4" />
                        
